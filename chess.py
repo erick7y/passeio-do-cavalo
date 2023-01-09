@@ -40,6 +40,7 @@ def mov_horse(old_pos):
   return pos
 
 if __name__ == '__main__':
+  print('Resolvendo...')
   while True:
     positions = [mov_horse([randint(1, 8), randint(1, 8)])]
 
